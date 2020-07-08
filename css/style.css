@@ -30,6 +30,7 @@ h2{
 * {
   box-sizing: border-box;
 }
+
 @media screen and (min-width: 992px) {
 
 .column {
@@ -60,7 +61,7 @@ h2{
 font-weight:bold;
 
 }
-}
+         }
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -70,14 +71,29 @@ font-weight:bold;
 
 @media screen and (max-width: 991px) {
   .column  {
-    width: 50%;
+    width: 48% !important;
+     float:left;
+      padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
   }
   .column2{
     width:48%;
+     float:right;
+     padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
   }
 
   .column3  {
     width: 99%;
+     float:left;
+      padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
   }
   .right{
       width:18% !important;
@@ -85,8 +101,12 @@ font-weight:bold;
   
 
 }
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 767px) {
   .column  {
+    width: 100% !important;
+  }
+.column2  {
     width: 100%;
   }
 
@@ -104,3 +124,4 @@ font-weight:bold;
   }
 
 }
+ 
