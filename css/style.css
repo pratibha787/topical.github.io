@@ -1,13 +1,1 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
-
-body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);body{padding:50px;font:14px/1.5 Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:300}.row{width:1024px;margin:0 auto}h3{text-align:center;font-weight:800;font-size:30px}h2{text-align:right;border:10px solid}*{box-sizing:border-box}.column{float:left;width:25%;padding:10px;margin:5px;border:2px solid;font-weight:700}.column2{float:left;width:25%;padding:10px;margin:5px;border:2px solid;font-weight:700}.column3{float:left;width:25%;padding:10px;margin:5px;border:2px solid;font-weight:700}.row:after{content:"";display:table;clear:both}@media screen and (max-width:991px){.column{width:50%}.column2{width:48%}.column3{width:99%}.right{width:18%!important}}@media screen and (max-width:767px){.column{width:100%}.column3{width:100%}.right{width:18%!important}.column2{width:100%}}
