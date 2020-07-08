@@ -12,7 +12,135 @@
       </title>
 
       <link href="css/style.css" rel="stylesheet">
-     
+     <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:50px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-weight:300;
+}
+.container{
+  width:100%;
+}
+
+.row {
+  width:992px;
+  margin:0 auto;
+}
+
+
+h3{
+  
+  text-align:center;
+  font-weight:800;
+  font-size:30px;
+
+}
+h2{
+  text-align:right;
+  border:10px solid;
+}
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 992px) {
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
+}
+.column2 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+    margin:5px;
+      border:2px solid;
+      font-weight:bold;
+
+
+}
+
+.column3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+    margin:5px;
+      border:2px solid;
+font-weight:bold;
+
+}
+         }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 991px) {
+  .column  {
+    width: 48% !important;
+     float:left;
+      padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
+  }
+  .column2{
+    width:48%;
+     float:right;
+     padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
+  }
+
+  .column3  {
+    width: 99%;
+     float:left;
+      padding: 10px;
+  margin:5px;
+  border:2px solid;
+  font-weight:bold;
+  }
+  .right{
+      width:18% !important;
+    }
+  
+
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 767px) {
+  .column  {
+    width: 100% !important;
+  }
+.column2  {
+    width: 100%;
+  }
+
+
+  
+  .column3  {
+    width: 100%;
+  }
+    .right{
+      width:18% !important;
+    }
+  
+  .column2{
+    width:100%;
+  }
+
+}
+ 
+      </style>
      <body>
         <div class="container">
        <div class="row">
