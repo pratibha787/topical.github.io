@@ -47,7 +47,8 @@ h2{
   box-sizing: border-box;
 }
 
-/* Create four equal columns that floats next to each other */
+@media screen and (min-width: 992px) {
+
 .column {
   float: left;
   width: 25%;
@@ -76,6 +77,7 @@ h2{
 font-weight:bold;
 
 }
+         }
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -83,7 +85,6 @@ font-weight:bold;
   clear: both;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 991px) {
   .column  {
     width: 50%;
